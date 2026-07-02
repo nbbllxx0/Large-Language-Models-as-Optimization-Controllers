@@ -1,0 +1,16 @@
+[
+  {
+    "controller": "llm_agent_no_meta",
+    "run_idx": 0,
+    "seed": 42,
+    "final_compliance": 43.07361423800186,
+    "final_grayness": 5.338844108858619e-09,
+    "final_volume": 0.39999999999999886,
+    "wall_time": 96.54070162773132,
+    "tail_entry_best_C": 43.07361,
+    "tail_entry_best_iter": 297.0,
+    "tail_entry_best_G": 0.0,
+    "tail_entry_valid": true,
+    "tail_enabled": true
+  }
+]

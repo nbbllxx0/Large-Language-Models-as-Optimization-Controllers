@@ -1,0 +1,853 @@
+[
+  {
+    "iter": 8,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 1.2,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 1 exploration, slowly increasing penal."
+    },
+    "final_action": {
+      "penal": 1.2,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7709,
+    "input_chars": 694,
+    "output_chars": 128
+  },
+  {
+    "iter": 16,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 1.4,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 1 exploration, increasing penal slightly to encourage structure formation."
+    },
+    "final_action": {
+      "penal": 1.4,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.6819,
+    "input_chars": 696,
+    "output_chars": 163
+  },
+  {
+    "iter": 24,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 1.6,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Entering Stage 2: Increasing penal to 1.6 to drive grayness reduction."
+    },
+    "final_action": {
+      "penal": 1.6,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.6612,
+    "input_chars": 696,
+    "output_chars": 167
+  },
+  {
+    "iter": 32,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 2.2,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 2: Increasing penal to drive grayness reduction."
+    },
+    "final_action": {
+      "penal": 2.2,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.6798,
+    "input_chars": 697,
+    "output_chars": 137
+  },
+  {
+    "iter": 40,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 2.5,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 2: Increasing penal to drive grayness down as slope is flat."
+    },
+    "final_action": {
+      "penal": 2.5,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7851,
+    "input_chars": 697,
+    "output_chars": 163
+  },
+  {
+    "iter": 48,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 2.7,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 2: Grayness < 0.20 reached, slowly increasing penal to drive convergence."
+    },
+    "final_action": {
+      "penal": 2.7,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7082,
+    "input_chars": 692,
+    "output_chars": 162
+  },
+  {
+    "iter": 56,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 2.9,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 2: Increasing penal to drive grayness down."
+    },
+    "final_action": {
+      "penal": 2.9,
+      "beta": 1.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7572,
+    "input_chars": 692,
+    "output_chars": 132
+  },
+  {
+    "iter": 64,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 3.1,
+      "beta": 2.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 2: Increasing penal and beta to drive grayness down."
+    },
+    "final_action": {
+      "penal": 3.1,
+      "beta": 2.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7137,
+    "input_chars": 692,
+    "output_chars": 141
+  },
+  {
+    "iter": 72,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 3.3,
+      "beta": 2.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 2: Grayness below 0.20, continuing to ramp penal to 4.5."
+    },
+    "final_action": {
+      "penal": 3.3,
+      "beta": 2.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.6988,
+    "input_chars": 695,
+    "output_chars": 152
+  },
+  {
+    "iter": 80,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 3.5,
+      "beta": 2.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Grayness is low, increasing penal to 3.5 to continue driving towards binary."
+    },
+    "final_action": {
+      "penal": 3.5,
+      "beta": 2.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.6983,
+    "input_chars": 694,
+    "output_chars": 166
+  },
+  {
+    "iter": 88,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 3.7,
+      "beta": 2.0,
+      "rmin": 1.5,
+      "move": 0.2,
+      "restart": false,
+      "note": "Stage 2: Grayness < 0.20, increasing penal to continue driving toward binary state."
+    },
+    "final_action": {
+      "penal": 3.7,
+      "beta": 2.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7699,
+    "input_chars": 697,
+    "output_chars": 187
+  },
+  {
+    "iter": 96,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.0,
+      "beta": 4.0,
+      "rmin": 1.5,
+      "move": 0.15,
+      "restart": false,
+      "note": "Grayness is low, increasing penal and beta to continue Stage 2 progression."
+    },
+    "final_action": {
+      "penal": 4.0,
+      "beta": 4.0,
+      "rmin": 1.5,
+      "move": 0.15
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.8288,
+    "input_chars": 696,
+    "output_chars": 173
+  },
+  {
+    "iter": 104,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.2,
+      "beta": 4.0,
+      "rmin": 1.5,
+      "move": 0.15,
+      "restart": false,
+      "note": "Grayness is low, increasing penal to 4.2 to continue penalization phase."
+    },
+    "final_action": {
+      "penal": 4.2,
+      "beta": 4.0,
+      "rmin": 1.5,
+      "move": 0.15
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7444,
+    "input_chars": 695,
+    "output_chars": 156
+  },
+  {
+    "iter": 112,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.4,
+      "beta": 4.0,
+      "rmin": 1.5,
+      "move": 0.15,
+      "restart": false,
+      "note": "Grayness is low, increasing penal to 4.4 to continue Stage 2 progression."
+    },
+    "final_action": {
+      "penal": 4.4,
+      "beta": 4.0,
+      "rmin": 1.5,
+      "move": 0.15
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7632,
+    "input_chars": 695,
+    "output_chars": 177
+  },
+  {
+    "iter": 120,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 4.0,
+      "rmin": 1.5,
+      "move": 0.15,
+      "restart": false,
+      "note": "Grayness is low, penal reached 4.5, preparing for Stage 3 transition."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 4.0,
+      "rmin": 1.5,
+      "move": 0.15
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7372,
+    "input_chars": 697,
+    "output_chars": 153
+  },
+  {
+    "iter": 128,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 8.0,
+      "rmin": 1.45,
+      "move": 0.1,
+      "restart": false,
+      "note": "Grayness is low, entering Stage 3 early to sharpen features."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 8.0,
+      "rmin": 1.45,
+      "move": 0.1
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.8552,
+    "input_chars": 697,
+    "output_chars": 158
+  },
+  {
+    "iter": 136,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 8.0,
+      "rmin": 1.4,
+      "move": 0.08,
+      "restart": false,
+      "note": "Grayness is low, entering sharpening phase early to refine features."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 8.0,
+      "rmin": 1.4,
+      "move": 0.08
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.8728,
+    "input_chars": 695,
+    "output_chars": 166
+  },
+  {
+    "iter": 144,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.35,
+      "move": 0.07,
+      "restart": false,
+      "note": "Grayness is low, entering Stage 3 sharpening phase."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.35,
+      "move": 0.07
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7362,
+    "input_chars": 695,
+    "output_chars": 137
+  },
+  {
+    "iter": 152,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.3,
+      "move": 0.06,
+      "restart": false,
+      "note": "Stage 3 sharpening: reducing rmin and move to finalize binary topology."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.3,
+      "move": 0.06
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7972,
+    "input_chars": 696,
+    "output_chars": 170
+  },
+  {
+    "iter": 160,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.25,
+      "move": 0.06,
+      "restart": false,
+      "note": "Stage 3 sharpening, reducing rmin to 1.25."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.25,
+      "move": 0.06
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.681,
+    "input_chars": 694,
+    "output_chars": 128
+  },
+  {
+    "iter": 168,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.2,
+      "move": 0.06,
+      "restart": false,
+      "note": "Stage 3 sharpening, reducing rmin to 1.20."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.2,
+      "move": 0.06
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7406,
+    "input_chars": 693,
+    "output_chars": 127
+  },
+  {
+    "iter": 176,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.2,
+      "move": 0.06,
+      "restart": false,
+      "note": "Grayness is already converged, maintaining sharpening parameters."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 16.0,
+      "rmin": 1.2,
+      "move": 0.06
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.8445,
+    "input_chars": 693,
+    "output_chars": 150
+  },
+  {
+    "iter": 184,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Stage 4 convergence: grayness is already binary, finalizing parameters."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.8767,
+    "input_chars": 696,
+    "output_chars": 156
+  },
+  {
+    "iter": 192,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Stage 4 convergence, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.8447,
+    "input_chars": 696,
+    "output_chars": 124
+  },
+  {
+    "iter": 200,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in Stage 4; parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7764,
+    "input_chars": 696,
+    "output_chars": 140
+  },
+  {
+    "iter": 208,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Stage 4 convergence: grayness is already 0, maintaining parameters."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7482,
+    "input_chars": 695,
+    "output_chars": 166
+  },
+  {
+    "iter": 216,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in Stage 4, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.6151,
+    "input_chars": 694,
+    "output_chars": 126
+  },
+  {
+    "iter": 224,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in Stage 4, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7518,
+    "input_chars": 694,
+    "output_chars": 126
+  },
+  {
+    "iter": 232,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in Stage 4, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7384,
+    "input_chars": 694,
+    "output_chars": 126
+  },
+  {
+    "iter": 240,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in Stage 4, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.749,
+    "input_chars": 694,
+    "output_chars": 126
+  },
+  {
+    "iter": 248,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in Stage 4, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.6973,
+    "input_chars": 693,
+    "output_chars": 126
+  },
+  {
+    "iter": 256,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in Stage 4, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.664,
+    "input_chars": 693,
+    "output_chars": 126
+  },
+  {
+    "iter": 264,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in Stage 4, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.6941,
+    "input_chars": 696,
+    "output_chars": 126
+  },
+  {
+    "iter": 272,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in final stage."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7154,
+    "input_chars": 693,
+    "output_chars": 111
+  },
+  {
+    "iter": 280,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in final stage, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7585,
+    "input_chars": 693,
+    "output_chars": 130
+  },
+  {
+    "iter": 288,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging in final stage."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.783,
+    "input_chars": 693,
+    "output_chars": 111
+  },
+  {
+    "iter": 296,
+    "mode": "llm",
+    "llm_parsed": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04,
+      "restart": false,
+      "note": "Converging final stage, parameters stable."
+    },
+    "final_action": {
+      "penal": 4.5,
+      "beta": 32.0,
+      "rmin": 1.2,
+      "move": 0.04
+    },
+    "temperature": 0.0,
+    "system_prompt_key": "direct",
+    "latency_s": 0.7606,
+    "input_chars": 694,
+    "output_chars": 141
+  }
+]

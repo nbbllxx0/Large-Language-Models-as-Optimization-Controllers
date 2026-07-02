@@ -1,0 +1,8 @@
+mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate,controller,n,mean_final_C,std_final_C,ci95_low,ci95_high,mean_final_G,mean_wall_time_s,mean_delta_vs_llm_replay,mean_pct_vs_llm_replay,signflip_p_vs_llm_replay,run_indices,seeds
+2d,cantilever,120,60,0,0.4,300,0.2,fixed_tail,1,75.807461,0.0,75.807461,75.807461,8.3e-07,67.418,-0.421295,-0.5527,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,109.814,0.0,0.0,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,llm_replay,1,76.228756,0.0,76.228756,76.228756,1e-08,33.556,0.0,0.0,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,llm_replay_freeze_beta,1,75.902493,0.0,75.902493,75.902493,1.2e-07,22.268,-0.326263,-0.428,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,llm_replay_freeze_move,1,76.305959,0.0,76.305959,76.305959,4e-08,33.605,0.077203,0.1013,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,llm_replay_freeze_penal,1,187.60887,0.0,187.60887,187.60887,0.00023879,9.964,111.380114,146.113,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,llm_replay_freeze_rmin,1,76.275311,0.0,76.275311,76.275311,2e-08,33.659,0.046555,0.0611,1.0,0,42

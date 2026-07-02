@@ -1,0 +1,16 @@
+[
+  {
+    "controller": "expert_heuristic",
+    "run_idx": 0,
+    "seed": 42,
+    "final_compliance": 43.43849308991628,
+    "final_grayness": 4.291384460578302e-09,
+    "final_volume": 0.4000000000000001,
+    "wall_time": 68.25254440307617,
+    "tail_entry_best_C": 43.43852,
+    "tail_entry_best_iter": 111.0,
+    "tail_entry_best_G": 0.0,
+    "tail_entry_valid": true,
+    "tail_enabled": true
+  }
+]

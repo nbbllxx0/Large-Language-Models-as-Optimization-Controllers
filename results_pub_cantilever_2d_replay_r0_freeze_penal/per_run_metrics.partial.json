@@ -1,0 +1,16 @@
+[
+  {
+    "controller": "llm_replay_freeze_penal",
+    "run_idx": 0,
+    "seed": 42,
+    "final_compliance": 187.60886996408166,
+    "final_grayness": 0.00023879129569781823,
+    "final_volume": 0.39999999999989627,
+    "wall_time": 9.96408987045288,
+    "tail_entry_best_C": Infinity,
+    "tail_entry_best_iter": 0.0,
+    "tail_entry_best_G": 0.96,
+    "tail_entry_valid": false,
+    "tail_enabled": true
+  }
+]

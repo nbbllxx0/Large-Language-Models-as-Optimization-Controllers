@@ -1,0 +1,3 @@
+"model","final_C","final_G","wall_s","llm_calls","errors","fallback","cooldown","mean_latency_s","result_dir"
+"gemini-3.1-flash-lite-preview","76.228756","1E-08","109.814","60","0","0","0","0.7529","results_pub_cantilever_2d_review_r0_llm_agent"
+"gemini-2.5-flash-lite","76.667267","1E-08","103.712","41","2","0","17","0.8304","results_pub_cantilever_2d_model_sensitivity_gemini_2_5_flash_lite"

@@ -1,0 +1,12 @@
+mode,problem,controller,n,mean_final_C,std_final_C,ci95_low,ci95_high,mean_final_G,mean_wall_time_s,mean_delta_vs_fixed_tail,mean_pct_vs_fixed_tail,signflip_p_vs_fixed_tail,run_indices,seeds
+2d,cantilever,expert_heuristic,1,76.462438,0.0,76.462438,76.462438,0.0,68.172,0.654977,0.864,1.0,0,42
+2d,cantilever,fixed,1,80.9784,0.0,80.9784,80.9784,0.09842448,60.478,5.170938,6.8211,1.0,0,42
+2d,cantilever,fixed_tail,1,75.807461,0.0,75.807461,75.807461,8.3e-07,67.418,0.0,0.0,1.0,0,42
+2d,cantilever,grayness_rule,1,79.604931,0.0,79.604931,79.604931,0.0,67.68,3.79747,5.0094,1.0,0,42
+2d,cantilever,grayness_rule_restart,1,79.604931,0.0,79.604931,79.604931,0.0,38.953,3.79747,5.0094,1.0,0,42
+2d,cantilever,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,109.814,0.421295,0.5557,1.0,0,42
+2d,cantilever,llm_agent_no_meta,1,75.725185,0.0,75.725185,75.725185,0.0,96.535,-0.082276,-0.1085,1.0,0,42
+2d,cantilever,llm_agent_no_restart,1,76.228756,0.0,76.228756,76.228756,1e-08,116.43,0.421295,0.5557,1.0,0,42
+2d,cantilever,schedule_only,1,81.329569,0.0,81.329569,81.329569,1e-08,67.418,5.522107,7.2844,1.0,0,42
+2d,cantilever,tail_only,1,187.60887,0.0,187.60887,187.60887,0.00023879,18.236,111.801409,147.4807,1.0,0,42
+2d,cantilever,three_field_continuation,1,76.786164,0.0,76.786164,76.786164,0.0,67.713,0.978703,1.291,1.0,0,42

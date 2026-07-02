@@ -1,0 +1,13 @@
+mode,problem,grayness_gate,controller,n,mean_final_C,std_final_C,ci95_low,ci95_high,mean_final_G,mean_wall_time_s,mean_delta_vs_fixed_tail,mean_pct_vs_fixed_tail,signflip_p_vs_fixed_tail,run_indices,seeds
+2d,cantilever,0.1,grayness_rule,1,77.300539,0.0,77.300539,77.300539,0.0,66.208,,,,0,42
+2d,cantilever,0.1,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,111.936,,,,0,42
+2d,cantilever,0.15,grayness_rule,1,77.408728,0.0,77.408728,77.408728,0.0,57.738,,,,0,42
+2d,cantilever,0.15,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,112.207,,,,0,42
+2d,cantilever,0.2,grayness_rule,1,79.604931,0.0,79.604931,79.604931,0.0,67.68,,,,0,42
+2d,cantilever,0.2,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,109.814,,,,0,42
+2d,cantilever,0.25,grayness_rule,1,80.096481,0.0,80.096481,80.096481,0.0,68.578,,,,0,42
+2d,cantilever,0.25,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,108.006,,,,0,42
+2d,cantilever,0.3,grayness_rule,1,81.352869,0.0,81.352869,81.352869,1e-08,70.141,,,,0,42
+2d,cantilever,0.3,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,115.202,,,,0,42
+2d,cantilever,0.35,grayness_rule,1,82.193374,0.0,82.193374,82.193374,1e-08,69.928,,,,0,42
+2d,cantilever,0.35,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,110.634,,,,0,42

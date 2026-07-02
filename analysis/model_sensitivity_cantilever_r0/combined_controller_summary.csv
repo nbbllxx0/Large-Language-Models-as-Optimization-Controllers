@@ -1,0 +1,5 @@
+mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate,controller,n,mean_final_C,std_final_C,ci95_low,ci95_high,mean_final_G,mean_wall_time_s,mean_delta_vs_fixed_tail,mean_pct_vs_fixed_tail,signflip_p_vs_fixed_tail,run_indices,seeds
+2d,cantilever,120,60,0,0.4,300,0.2,fixed,1,80.9784,0.0,80.9784,80.9784,0.09842448,60.478,5.170938,6.8211,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,fixed_tail,1,75.807461,0.0,75.807461,75.807461,8.3e-07,67.418,0.0,0.0,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,grayness_rule,1,79.604931,0.0,79.604931,79.604931,0.0,67.68,3.79747,5.0094,1.0,0,42
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent,1,76.228756,0.0,76.228756,76.228756,1e-08,109.814,0.421295,0.5557,1.0,0,42

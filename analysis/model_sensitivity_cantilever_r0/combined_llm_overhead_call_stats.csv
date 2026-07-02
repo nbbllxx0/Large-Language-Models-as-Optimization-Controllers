@@ -1,0 +1,3 @@
+mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate,result_dir,controller,run_file,total_log_entries,llm_calls,error_calls,fallback_entries,cooldown_entries,mean_latency_s,total_latency_s,input_chars,output_chars,input_tokens_est,output_tokens_est
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_review_r0_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7529,45.1739,41703,8665,10426,2166
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_model_sensitivity_gemini_2_0_flash_lite,llm_agent,llm_agent_call_log_run0.json,60,0,3,0,57,0.271,0.813,2063,0,516,0

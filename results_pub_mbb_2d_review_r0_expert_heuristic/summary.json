@@ -1,0 +1,36 @@
+{
+  "expert_heuristic": {
+    "final_C_mean": 96.49991,
+    "final_C_std": 0.0,
+    "final_G_mean": 0.0,
+    "final_V_mean": 0.4,
+    "final_vs_ref%": null,
+    "wall_time_mean": 67.6,
+    "n_runs": 1,
+    "tail_entry_best_C": 96.49991,
+    "tail_entry_best_iter": 101.0,
+    "tail_entry_best_G": 0.0,
+    "tail_entry_valid": true,
+    "pre_valid_C": 101.54685,
+    "pre_valid_iter": 10.0,
+    "pre_valid_G": 0.62486,
+    "tail_enabled": true
+  },
+  "_metadata": {
+    "problem": "mbb",
+    "mode": "2d",
+    "nelx": 120,
+    "nely": 60,
+    "nelz": 0,
+    "volfrac": 0.4,
+    "max_iter": 300,
+    "n_runs": 1,
+    "call_every": 5,
+    "model": "gemini-3.1-flash-lite-preview",
+    "grayness_gate": 0.2,
+    "review_ablation": true,
+    "llm_no_restart": false,
+    "no_meta_ablation": false,
+    "controllers": "expert_heuristic"
+  }
+}

@@ -1,0 +1,10 @@
+result_dir,controller,run_file,total_log_entries,llm_calls,error_calls,fallback_entries,cooldown_entries,mean_latency_s,total_latency_s,input_chars,output_chars,input_tokens_est,output_tokens_est
+results_pub_cantilever_2d_review_r0_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7529,45.1739,41703,8665,10426,2166
+results_pub_cantilever_2d_review_r0_llm_agent_no_meta,llm_agent_no_meta,llm_agent_no_meta_call_log_run0.json,37,37,0,0,0,0.7618,28.1874,25742,5361,6436,1340
+results_pub_cantilever_2d_review_r0_llm_agent_no_restart,llm_agent_no_restart,llm_agent_no_restart_call_log_run0.json,60,60,0,0,0,0.7653,45.9174,41703,8669,10426,2167
+results_pub_lbracket_2d_review_r0_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7464,44.7856,41671,8439,10418,2110
+results_pub_lbracket_2d_review_r0_llm_agent_no_meta,llm_agent_no_meta,llm_agent_no_meta_call_log_run0.json,37,37,0,0,0,0.7486,27.6993,25702,5354,6426,1338
+results_pub_lbracket_2d_review_r0_llm_agent_no_restart,llm_agent_no_restart,llm_agent_no_restart_call_log_run0.json,60,60,0,0,0,0.7451,44.7071,41671,8439,10418,2110
+results_pub_mbb_2d_review_r0_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7496,44.9788,41881,8479,10470,2120
+results_pub_mbb_2d_review_r0_llm_agent_no_meta,llm_agent_no_meta,llm_agent_no_meta_call_log_run0.json,37,37,0,0,0,0.7697,28.4806,25866,5420,6466,1355
+results_pub_mbb_2d_review_r0_llm_agent_no_restart,llm_agent_no_restart,llm_agent_no_restart_call_log_run0.json,60,60,0,0,0,0.7818,46.9067,41881,8479,10470,2120

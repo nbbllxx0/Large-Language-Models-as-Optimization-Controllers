@@ -1,0 +1,11 @@
+mode,problem,comparison,n_pairs,mean_delta,mean_pct,signflip_p,run_indices
+2d,lbracket,llm_agent_minus_expert_heuristic,1,-0.371663,-0.8556,1.0,0
+2d,lbracket,llm_agent_minus_fixed,1,-3.258168,-7.0333,1.0,0
+2d,lbracket,llm_agent_minus_fixed_tail,1,0.186121,0.434,1.0,0
+2d,lbracket,llm_agent_minus_grayness_rule,1,-1.541266,-3.4551,1.0,0
+2d,lbracket,llm_agent_minus_grayness_rule_restart,1,-1.541266,-3.4551,1.0,0
+2d,lbracket,llm_agent_minus_llm_agent_no_meta,1,-0.006784,-0.0158,1.0,0
+2d,lbracket,llm_agent_minus_llm_agent_no_restart,1,0.0,0.0,1.0,0
+2d,lbracket,llm_agent_minus_schedule_only,1,-1.805238,-4.0231,1.0,0
+2d,lbracket,llm_agent_minus_tail_only,1,-87.008946,-66.891,1.0,0
+2d,lbracket,llm_agent_minus_three_field_continuation,1,-0.737723,-1.6841,1.0,0

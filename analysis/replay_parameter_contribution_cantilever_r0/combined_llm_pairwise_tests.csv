@@ -1,0 +1,7 @@
+mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate,comparison,n_pairs,mean_delta,mean_pct,signflip_p,run_indices
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_fixed_tail,1,0.421295,0.5557,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_llm_replay,1,0.0,0.0,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_llm_replay_freeze_beta,1,0.326263,0.4298,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_llm_replay_freeze_move,1,-0.077203,-0.1012,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_llm_replay_freeze_penal,1,-111.380114,-59.3683,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_llm_replay_freeze_rmin,1,-0.046555,-0.061,1.0,0

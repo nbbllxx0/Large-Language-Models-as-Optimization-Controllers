@@ -1,0 +1,11 @@
+comparison,n_pairs,mean_delta,mean_pct,signflip_p,run_indices
+llm_agent_minus_expert_heuristic,2,-0.233682,-0.3056,0.5,0 1
+llm_agent_minus_fixed,2,-4.749643,-5.8653,0.5,0 1
+llm_agent_minus_fixed_tail,2,0.421295,0.5557,0.5,0 1
+llm_agent_minus_grayness_rule,2,-3.376175,-4.2412,0.5,0 1
+llm_agent_minus_grayness_rule_restart,2,-3.376175,-4.2412,0.5,0 1
+llm_agent_minus_llm_agent_no_meta,2,0.503571,0.665,0.5,0 1
+llm_agent_minus_llm_agent_no_restart,2,0.0,0.0,1.0,0 1
+llm_agent_minus_schedule_only,2,-5.100812,-6.2718,0.5,0 1
+llm_agent_minus_tail_only,2,-111.380114,-59.3683,0.5,0 1
+llm_agent_minus_three_field_continuation,2,-0.557408,-0.7259,0.5,0 1

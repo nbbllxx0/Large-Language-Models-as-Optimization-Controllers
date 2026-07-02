@@ -1,0 +1,4 @@
+result_dir,controller,run_file,total_log_entries,llm_calls,error_calls,fallback_entries,cooldown_entries,mean_latency_s,total_latency_s,input_chars,output_chars,input_tokens_est,output_tokens_est
+results_pub_lbracket_2d_review_r0_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7464,44.7856,41671,8439,10418,2110
+results_pub_lbracket_2d_review_r0_llm_agent_no_meta,llm_agent_no_meta,llm_agent_no_meta_call_log_run0.json,37,37,0,0,0,0.7486,27.6993,25702,5354,6426,1338
+results_pub_lbracket_2d_review_r0_llm_agent_no_restart,llm_agent_no_restart,llm_agent_no_restart_call_log_run0.json,60,60,0,0,0,0.7451,44.7071,41671,8439,10418,2110

@@ -1,0 +1,5 @@
+controller,run_idx,seed,final_compliance,final_grayness,final_volume,wall_time,tail_entry_best_C,tail_entry_best_iter,tail_entry_best_G,tail_entry_valid,tail_enabled,result_dir,metrics_file,mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate
+fixed,0,42,80.97839954926438,0.09842448095339591,0.39999999996233165,60.477747440338135,80.97907,300.0,0.09841,True,False,results_pub_cantilever_2d_review_r0_fixed,per_run_metrics.json,2d,cantilever,120,60,0,0.4,300,0.2
+fixed_tail,0,42,75.80746110676509,8.310771798706213e-07,0.4000000000000005,67.41761040687561,80.97907,300.0,0.09841,True,True,results_pub_cantilever_2d_review_r0_fixed_tail,per_run_metrics.json,2d,cantilever,120,60,0,0.4,300,0.2
+grayness_rule,0,42,79.60493095040177,3.1668175303224114e-09,0.4000000000000003,67.68010997772217,79.60493,300.0,0.0,True,True,results_pub_cantilever_2d_review_r0_grayness_rule,per_run_metrics.json,2d,cantilever,120,60,0,0.4,300,0.2
+llm_agent,0,42,76.22875611327355,9.493202256004974e-09,0.39999999999999886,109.81384444236755,76.22876,285.0,0.0,True,True,results_pub_cantilever_2d_review_r0_llm_agent,per_run_metrics.json,2d,cantilever,120,60,0,0.4,300,0.2

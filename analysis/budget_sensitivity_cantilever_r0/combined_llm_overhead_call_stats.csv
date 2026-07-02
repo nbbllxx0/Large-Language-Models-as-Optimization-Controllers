@@ -1,0 +1,7 @@
+mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate,result_dir,controller,run_file,total_log_entries,llm_calls,error_calls,fallback_entries,cooldown_entries,mean_latency_s,total_latency_s,input_chars,output_chars,input_tokens_est,output_tokens_est
+2d,cantilever,120,60,0,0.4,100,0.2,results_pub_cantilever_2d_budget_N100_llm_agent,llm_agent,llm_agent_call_log_run0.json,20,20,0,0,0,0.7546,15.0924,13911,2862,3478,716
+2d,cantilever,120,60,0,0.4,100,0.2,results_pub_cantilever_2d_budget_N100_llm_agent_no_meta,llm_agent_no_meta,llm_agent_no_meta_call_log_run0.json,12,12,0,0,0,0.7922,9.5069,8368,1926,2092,482
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_review_r0_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7529,45.1739,41703,8665,10426,2166
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_review_r0_llm_agent_no_meta,llm_agent_no_meta,llm_agent_no_meta_call_log_run0.json,37,37,0,0,0,0.7618,28.1874,25742,5361,6436,1340
+2d,cantilever,120,60,0,0.4,500,0.2,results_pub_cantilever_2d_budget_N500_llm_agent,llm_agent,llm_agent_call_log_run0.json,100,100,0,0,0,0.7515,75.1528,69521,14038,17380,3510
+2d,cantilever,120,60,0,0.4,500,0.2,results_pub_cantilever_2d_budget_N500_llm_agent_no_meta,llm_agent_no_meta,llm_agent_no_meta_call_log_run0.json,17,17,0,0,0,0.7942,13.5015,11831,2710,2958,678

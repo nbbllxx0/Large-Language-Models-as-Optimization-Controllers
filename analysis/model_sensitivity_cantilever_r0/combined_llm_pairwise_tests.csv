@@ -1,0 +1,4 @@
+mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate,comparison,n_pairs,mean_delta,mean_pct,signflip_p,run_indices
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_fixed,1,-4.749643,-5.8653,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_fixed_tail,1,0.421295,0.5557,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_grayness_rule,1,-3.376175,-4.2412,1.0,0

@@ -1,0 +1,16 @@
+[
+  {
+    "controller": "fixed",
+    "run_idx": 0,
+    "seed": 42,
+    "final_compliance": 80.97839954926438,
+    "final_grayness": 0.09842448095339591,
+    "final_volume": 0.39999999996233165,
+    "wall_time": 60.477747440338135,
+    "tail_entry_best_C": 80.97907,
+    "tail_entry_best_iter": 300.0,
+    "tail_entry_best_G": 0.09841,
+    "tail_entry_valid": true,
+    "tail_enabled": false
+  }
+]

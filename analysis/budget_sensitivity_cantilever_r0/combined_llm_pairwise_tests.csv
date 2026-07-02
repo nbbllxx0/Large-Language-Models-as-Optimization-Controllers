@@ -1,0 +1,16 @@
+mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate,comparison,n_pairs,mean_delta,mean_pct,signflip_p,run_indices
+2d,cantilever,120,60,0,0.4,100,0.2,llm_agent_minus_expert_heuristic,1,0.147858,0.1934,1.0,0
+2d,cantilever,120,60,0,0.4,100,0.2,llm_agent_minus_fixed,1,-4.730158,-5.8153,1.0,0
+2d,cantilever,120,60,0,0.4,100,0.2,llm_agent_minus_fixed_tail,1,0.51714,0.6796,1.0,0
+2d,cantilever,120,60,0,0.4,100,0.2,llm_agent_minus_grayness_rule,1,-2.994635,-3.7619,1.0,0
+2d,cantilever,120,60,0,0.4,100,0.2,llm_agent_minus_llm_agent_no_meta,1,0.428156,0.562,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_expert_heuristic,1,-0.233682,-0.3056,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_fixed,1,-4.749643,-5.8653,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_fixed_tail,1,0.421295,0.5557,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_grayness_rule,1,-3.376175,-4.2412,1.0,0
+2d,cantilever,120,60,0,0.4,300,0.2,llm_agent_minus_llm_agent_no_meta,1,0.503571,0.665,1.0,0
+2d,cantilever,120,60,0,0.4,500,0.2,llm_agent_minus_expert_heuristic,1,-0.473216,-0.6189,1.0,0
+2d,cantilever,120,60,0,0.4,500,0.2,llm_agent_minus_fixed,1,-4.910755,-6.0702,1.0,0
+2d,cantilever,120,60,0,0.4,500,0.2,llm_agent_minus_fixed_tail,1,0.245104,0.3236,1.0,0
+2d,cantilever,120,60,0,0.4,500,0.2,llm_agent_minus_grayness_rule,1,-3.615709,-4.5421,1.0,0
+2d,cantilever,120,60,0,0.4,500,0.2,llm_agent_minus_llm_agent_no_meta,1,0.223527,0.295,1.0,0

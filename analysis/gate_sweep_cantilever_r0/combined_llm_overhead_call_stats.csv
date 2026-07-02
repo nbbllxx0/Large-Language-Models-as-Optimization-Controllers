@@ -1,0 +1,7 @@
+result_dir,controller,run_file,total_log_entries,llm_calls,error_calls,fallback_entries,cooldown_entries,mean_latency_s,total_latency_s,input_chars,output_chars,input_tokens_est,output_tokens_est
+results_pub_cantilever_2d_gate_0p10_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7407,44.4402,41703,8665,10426,2166
+results_pub_cantilever_2d_gate_0p15_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7489,44.9332,41703,8665,10426,2166
+results_pub_cantilever_2d_gate_0p25_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7319,43.9111,41703,8672,10426,2168
+results_pub_cantilever_2d_gate_0p30_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7557,45.3435,41703,8669,10426,2167
+results_pub_cantilever_2d_gate_0p35_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7214,43.2834,41703,8665,10426,2166
+results_pub_cantilever_2d_review_r0_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7529,45.1739,41703,8665,10426,2166

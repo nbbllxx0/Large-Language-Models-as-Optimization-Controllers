@@ -1,0 +1,16 @@
+[
+  {
+    "controller": "grayness_rule",
+    "run_idx": 0,
+    "seed": 42,
+    "final_compliance": 80.09648069539462,
+    "final_grayness": 3.788060231881683e-09,
+    "final_volume": 0.40000000000000036,
+    "wall_time": 68.57771348953247,
+    "tail_entry_best_C": 80.09649,
+    "tail_entry_best_iter": 298.0,
+    "tail_entry_best_G": 0.0,
+    "tail_entry_valid": true,
+    "tail_enabled": true
+  }
+]

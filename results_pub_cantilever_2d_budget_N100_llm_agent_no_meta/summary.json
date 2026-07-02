@@ -1,0 +1,36 @@
+{
+  "llm_agent_no_meta": {
+    "final_C_mean": 76.18214,
+    "final_C_std": 0.0,
+    "final_G_mean": 0.0004,
+    "final_V_mean": 0.4,
+    "final_vs_ref%": null,
+    "wall_time_mean": 23.3,
+    "n_runs": 1,
+    "tail_entry_best_C": 76.14081,
+    "tail_entry_best_iter": 65.0,
+    "tail_entry_best_G": 0.00118,
+    "tail_entry_valid": true,
+    "pre_valid_C": 88.87646,
+    "pre_valid_iter": 32.0,
+    "pre_valid_G": 0.20991,
+    "tail_enabled": true
+  },
+  "_metadata": {
+    "problem": "cantilever",
+    "mode": "2d",
+    "nelx": 120,
+    "nely": 60,
+    "nelz": 0,
+    "volfrac": 0.4,
+    "max_iter": 100,
+    "n_runs": 1,
+    "call_every": 5,
+    "model": "gemini-3.1-flash-lite-preview",
+    "grayness_gate": 0.2,
+    "review_ablation": true,
+    "llm_no_restart": true,
+    "no_meta_ablation": true,
+    "controllers": "llm_agent_no_meta"
+  }
+}

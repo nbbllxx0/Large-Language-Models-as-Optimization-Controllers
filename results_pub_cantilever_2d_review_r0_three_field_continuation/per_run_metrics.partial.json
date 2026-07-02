@@ -1,0 +1,16 @@
+[
+  {
+    "controller": "three_field_continuation",
+    "run_idx": 0,
+    "seed": 42,
+    "final_compliance": 76.7861641615758,
+    "final_grayness": 3.450263832485433e-09,
+    "final_volume": 0.4,
+    "wall_time": 67.71342730522156,
+    "tail_entry_best_C": 76.78618,
+    "tail_entry_best_iter": 96.0,
+    "tail_entry_best_G": 0.0,
+    "tail_entry_valid": true,
+    "tail_enabled": true
+  }
+]

@@ -1,0 +1,7 @@
+mode,problem,grayness_gate,comparison,n_pairs,mean_delta,mean_pct,signflip_p,run_indices
+2d,cantilever,0.1,llm_agent_minus_grayness_rule,1,-1.071783,-1.3865,1.0,0
+2d,cantilever,0.15,llm_agent_minus_grayness_rule,1,-1.179972,-1.5243,1.0,0
+2d,cantilever,0.2,llm_agent_minus_grayness_rule,1,-3.376175,-4.2412,1.0,0
+2d,cantilever,0.25,llm_agent_minus_grayness_rule,1,-3.867725,-4.8288,1.0,0
+2d,cantilever,0.3,llm_agent_minus_grayness_rule,1,-5.124113,-6.2986,1.0,0
+2d,cantilever,0.35,llm_agent_minus_grayness_rule,1,-5.964618,-7.2568,1.0,0

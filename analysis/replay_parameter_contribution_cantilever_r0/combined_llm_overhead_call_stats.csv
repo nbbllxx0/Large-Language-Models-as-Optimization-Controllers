@@ -1,0 +1,7 @@
+mode,problem,nelx,nely,nelz,volfrac,max_iter,grayness_gate,result_dir,controller,run_file,total_log_entries,llm_calls,error_calls,fallback_entries,cooldown_entries,mean_latency_s,total_latency_s,input_chars,output_chars,input_tokens_est,output_tokens_est
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_review_r0_llm_agent,llm_agent,llm_agent_call_log_run0.json,60,60,0,0,0,0.7529,45.1739,41703,8665,10426,2166
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_replay_r0_llm_replay,llm_replay,llm_replay_call_log_run0.json,60,0,0,0,0,0.0,0,0,0,0,0
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_replay_r0_freeze_penal,llm_replay_freeze_penal,llm_replay_freeze_penal_call_log_run0.json,12,0,0,0,0,0.0,0,0,0,0,0
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_replay_r0_freeze_beta,llm_replay_freeze_beta,llm_replay_freeze_beta_call_log_run0.json,37,0,0,0,0,0.0,0,0,0,0,0
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_replay_r0_freeze_rmin,llm_replay_freeze_rmin,llm_replay_freeze_rmin_call_log_run0.json,60,0,0,0,0,0.0,0,0,0,0,0
+2d,cantilever,120,60,0,0.4,300,0.2,results_pub_cantilever_2d_replay_r0_freeze_move,llm_replay_freeze_move,llm_replay_freeze_move_call_log_run0.json,60,0,0,0,0,0.0,0,0,0,0,0
