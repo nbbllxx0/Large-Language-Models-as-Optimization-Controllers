@@ -11,8 +11,8 @@ Analyzes LLM call logs produced by pub_run_comparison.py to answer:
 6. Temperature effect: does higher T increase variance?
 
 Usage:
-    python analyze_call_logs.py results_pub_cantilever_2d/llm_agent_call_log_run0.json
-    python analyze_call_logs.py results_pub_cantilever_2d/  # analyze all logs in dir
+    python analyze_call_logs.py results/results_pub_cantilever_2d/llm_agent_call_log_run0.json
+    python analyze_call_logs.py results/results_pub_cantilever_2d/  # analyze all logs in dir
 """
 
 from __future__ import annotations

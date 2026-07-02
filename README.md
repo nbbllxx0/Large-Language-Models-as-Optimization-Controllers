@@ -25,7 +25,7 @@ No API credential is stored in the repository.
 - `PROMPTS.md`: index of online-controller and outer-configuration prompt definitions in the executable source.
 - `aggregate_revision_batches.py`: aggregation utility for controller-specific result folders.
 - `analyze_revision_results.py` and `analyze_call_logs.py`: result and controller-log inspection tools.
-- `results_pub_*`: archived run outputs and controller logs used by the manuscript.
+- `results/results_pub_*`: archived run outputs and controller logs used by the manuscript.
 
 Merged evidence tables used in the paper are included under `analysis/`.
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 The listed dependencies are:
 
 ```bash
-numpy scipy matplotlib pyamg scikit-image plotly
+numpy>=1.26,<2.0 scipy>=1.11,<1.13 matplotlib>=3.8,<3.9 pyamg>=5.0,<6.0 scikit-image>=0.22,<0.24 plotly>=5.18,<6.0
 ```
 
 Live LLM runs use the Google Gemini API. Set the API key in the environment:
@@ -74,13 +74,13 @@ python pub_run_comparison.py --problem cantilever --mode 2d --preset long --n-ru
 Run a cached-action replay from an archived call log:
 
 ```bash
-python pub_run_comparison.py --no-llm --controllers llm_replay --mode 2d --problem cantilever --nelx 120 --nely 60 --max-iter 300 --min-iter 60 --n-runs 1 --replay-log results_pub_cantilever_2d_review_r0_llm_agent/llm_agent_call_log_run0.json --tag replay_example --no-plots
+python pub_run_comparison.py --no-llm --controllers llm_replay --mode 2d --problem cantilever --nelx 120 --nely 60 --max-iter 300 --min-iter 60 --n-runs 1 --replay-log results/results_pub_cantilever_2d_review_r0_llm_agent/llm_agent_call_log_run0.json --tag replay_example --no-plots
 ```
 
 Aggregate controller-specific result folders:
 
 ```bash
-python aggregate_revision_batches.py results_pub_cantilever_2d_review_r0_* --reference fixed_tail --out analysis_example
+python aggregate_revision_batches.py results/results_pub_cantilever_2d_review_r0_* --reference fixed_tail --out analysis_example
 ```
 
 ## Reproducibility Notes
@@ -98,9 +98,16 @@ If you use this code, please cite the accompanying manuscript:
   title  = {Large Language Models as Optimization Controllers: Adaptive Continuation for SIMP Topology Optimization},
   author = {Yang, Shaoliang and Wang, Jun and Wang, Yunsheng},
   year   = {2026},
+  eprint = {2603.25099},
+  archivePrefix = {arXiv},
   note   = {Manuscript under review}
 }
 ```
+
+The initial arXiv preprint is available as arXiv:2603.25099. The journal
+revision and this repository contain additional reviewer-requested ablations,
+cached replay materials, and bounded claims that supersede the initial preprint
+framing.
 
 ## License
 

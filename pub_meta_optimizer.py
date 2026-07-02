@@ -340,7 +340,7 @@ def auto_loop(n_iters: int, run_cmd: str, results_path: str, agent_path: str, mo
             found = next((c for c in candidates if os.path.exists(c)), None)
             if not found:
                 import glob as _glob
-                matches = sorted(_glob.glob("results_pub_*/summary.json"))
+                matches = sorted(_glob.glob("results/results_pub_*/summary.json"))
                 if matches: found = matches[-1]
             if found:
                 print(f"[MetaOptimizer] Note: using {found!r} (requested path not found).")
@@ -371,7 +371,7 @@ def auto_loop(n_iters: int, run_cmd: str, results_path: str, agent_path: str, mo
 
 def main():
     p = argparse.ArgumentParser(description="Meta-optimizer for pub_llm_agent.py")
-    p.add_argument("--results", default="results_pub_cantilever_2d/summary.json", help="Path to summary JSON")
+    p.add_argument("--results", default="results/results_pub_cantilever_2d/summary.json", help="Path to summary JSON")
     p.add_argument("--agent", default="pub_llm_agent.py", help="Path to pub_llm_agent.py")
     p.add_argument("--history", default="meta_optimizer_history.json", help="Path to store run history JSON")
     p.add_argument("--model", default="gemini-3.1-flash-lite", help="Gemini model name")
@@ -379,7 +379,7 @@ def main():
     p.add_argument("--loop", action="store_true", help="Run auto-loop")
     p.add_argument("--n_iters", type=int, default=5, help="Number of meta-iterations")
     p.add_argument("--run_cmd", default="python pub_run_comparison.py", help="Shell command")
-    p.add_argument("--converge", type=float, default=0.5, help="Stop loop when gap <= this %")
+    p.add_argument("--converge", type=float, default=0.5, help="Stop loop when gap <= this %%")
     p.add_argument("--quiet", action="store_true", default=False, help="Suppress verbose output")
     args = p.parse_args()
 

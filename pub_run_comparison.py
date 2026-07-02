@@ -619,7 +619,7 @@ def main():
         args.nelx, args.nely, args.max_iter = 180, 90, 300
 
     tag = ("_" + "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in args.tag)) if args.tag else ""
-    out_dir = f"results_pub_{args.problem}_{args.mode}{tag}"
+    out_dir = os.path.join("results", f"results_pub_{args.problem}_{args.mode}{tag}")
     os.makedirs(out_dir, exist_ok=True)
 
     # ---- Build controller list ----

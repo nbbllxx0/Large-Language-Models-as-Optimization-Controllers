@@ -7,12 +7,12 @@
 
 
 # ===================================================================
-# OUTER CONFIGURATION LOOP â€” optional fast iteration
+# OUTER CONFIGURATION LOOP â€?optional fast iteration
 # ===================================================================
 
-# Configuration pass for one problem â€” cantilever, fast mesh
+# Configuration pass for one problem â€?cantilever, fast mesh
 & $pyExec pub_meta_optimizer.py --loop `
-    --results "results_pub_cantilever_2d/summary.json" `
+    --results "results/results_pub_cantilever_2d/summary.json" `
     --run_cmd "$pyExec -u pub_run_comparison.py --problem cantilever --mode 2d --preset fast" `
     --n_iters 8
 
@@ -21,51 +21,51 @@
 # Configuration pass for all three 2-D problems
 foreach ($prob in @("cantilever","mbb","lbracket")) {
     & $pyExec pub_meta_optimizer.py --loop `
-        --results "results_pub_${prob}_2d/summary.json" `
+        --results "results/results_pub_${prob}_2d/summary.json" `
         --run_cmd "$pyExec -u pub_run_comparison.py --problem $prob --mode 2d --preset fast" `
         --n_iters 5
 }
 
-# Optimizes across all three geometries â€” prevents overfitting to cantilever.
+# Optimizes across all three geometries â€?prevents overfitting to cantilever.
 
 
 # ===================================================================
-# SINGLE PROBLEM â€” 2D
+# SINGLE PROBLEM â€?2D
 # ===================================================================
 
-# 2D fast â€” 60Ã—30, 100 iters (quick check)
+# 2D fast â€?60Ã—30, 100 iters (quick check)
 & $pyExec pub_run_comparison.py --problem cantilever --mode 2d --preset fast --verbose
 
-# 2D long â€” 120Ã—60, 300 iters (primary result)
+# 2D long â€?120Ã—60, 300 iters (primary result)
 & $pyExec pub_run_comparison.py --problem cantilever --mode 2d --preset long --verbose
 
-# 2D hard â€” 180Ã—90, 300 iters (high-res check)
+# 2D hard â€?180Ã—90, 300 iters (high-res check)
 & $pyExec pub_run_comparison.py --problem cantilever --mode 2d --preset hard --verbose
 
 
 # ===================================================================
-# SINGLE PROBLEM â€” 3D
+# SINGLE PROBLEM â€?3D
 # ===================================================================
 
-# 3D cantilever â€” standard 3D mesh
+# 3D cantilever â€?standard 3D mesh
 & $pyExec pub_run_comparison.py --problem cantilever --mode 3d --verbose
 
 # nelz auto-set to nelyÃ·3. Requires pyamg for reasonable speed.
 
-# 3D cantilever â€” explicit mesh size
+# 3D cantilever â€?explicit mesh size
 & $pyExec pub_run_comparison.py --problem cantilever --mode 3d `
     --nelx 60 --nely 30 --nelz 10 --max-iter 300 --verbose
 
-# 3D MBB beam â€” standard mesh
+# 3D MBB beam â€?standard mesh
 & $pyExec pub_run_comparison.py --problem mbb --mode 3d --verbose
 
-# 3D MBB beam â€” explicit mesh size
+# 3D MBB beam â€?explicit mesh size
 & $pyExec pub_run_comparison.py --problem mbb --mode 3d `
     --nelx 40 --nely 20 --nelz 10 --max-iter 300 --verbose
 
 
 # ===================================================================
-# ALL 2D PROBLEMS â€” reproduction sweep
+# ALL 2D PROBLEMS â€?reproduction sweep
 # ===================================================================
 
 # 2D all problems, long preset
@@ -111,12 +111,12 @@ foreach ($prob in @("cantilever","mbb","lbracket")) {
 # ITEM 2: TAIL-ONLY CONTROLLER (already in comparison)
 # ===================================================================
 # TailOnlyController is now included automatically in every run.
-# No separate command needed â€” it runs alongside the other controllers.
+# No separate command needed â€?it runs alongside the other controllers.
 # Check "tail_only" row in the console output table.
 #
 # Expected: tail_only >> fixed (tail helps even with no exploration)
 #           tail_only >> llm_agent (exploration quality matters)
-#           If llm_agent â‰ˆ tail_only, the exploration adds nothing.
+#           If llm_agent â‰?tail_only, the exploration adds nothing.
 
 
 # ===================================================================
@@ -126,7 +126,7 @@ foreach ($prob in @("cantilever","mbb","lbracket")) {
 # (GRAYNESS_GATE=0.30, CALL_EVERY=8, BETA_DOUBLE_EVERY=15)
 # to isolate the outer configuration loop contribution.
 
-# Quick check â€” cantilever 2D, single run
+# Quick check â€?cantilever 2D, single run
 & $pyExec pub_run_comparison.py --problem cantilever --mode 2d `
     --preset long --no-meta-ablation --verbose
 
@@ -195,7 +195,7 @@ foreach ($prob in @("cantilever","mbb","lbracket")) {
 # --verbose          # show per-iter LLM decisions (p= Î²= r= m=)
 # --no-llm           # heuristics only, skip LLM (fast baseline check)
 # --no-meta-ablation # also run pre-configuration-loop LLM agent
-# --n-runs 1         # default â€” single run for iteration
+# --n-runs 1         # default â€?single run for iteration
 # --n-runs 5         # five run-indexed executions
 # --call-every 5     # LLM API call frequency (default 5)
 # --model gemini-3.1-flash-lite   # current live endpoint example; archived logs retain their recorded identifiers

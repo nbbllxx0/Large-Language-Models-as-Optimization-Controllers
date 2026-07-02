@@ -39,8 +39,8 @@ separate this utility from the online controller behavior.
 
 ## Archived Call Logs
 
-The archived `results_pub_*` folders include controller call logs recording the
-model identifier, prompt character counts, output character counts, accepted
-controller actions, fallback/error entries when present, and final solver
-summaries. Cached-action replay uses these logs to reproduce the reported LLM
-action sequence without a live API call.
+The archived `results/results_pub_*` folders include controller call logs
+recording the model identifier, prompt character counts, output character
+counts, accepted controller actions, fallback/error entries when present, and
+final solver summaries. Cached-action replay uses these logs to reproduce the
+reported LLM action sequence without a live API call.
